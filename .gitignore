@@ -15,4 +15,6 @@ main
 .vscode
 *.opendb
 .vs/
+x64/Debug/
+x64/
 
