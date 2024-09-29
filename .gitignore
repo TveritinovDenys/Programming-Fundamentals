@@ -9,4 +9,6 @@
 *.dylib
 main
 .vscode
+*.opendb
+.vs/
 
