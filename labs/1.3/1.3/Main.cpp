@@ -25,6 +25,4 @@ int main() {
 	int var9 = 124;
 	int rShift = var9 >> 30;
 	
-
-
 }
