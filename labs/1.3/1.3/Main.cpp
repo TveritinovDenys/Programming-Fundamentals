@@ -1,27 +1,27 @@
 #include <iostream>
 
 int main() {
-	//Заперечення
+	//Р—Р°РїРµСЂРµС‡РµРЅРЅСЏ
 	int var = -11;
 	int iVar = ~var;
 	
-	//Побітове І
+	//РџРѕР±С–С‚РѕРІРµ Р†
 	int var2 = 60, var3 = 93;
 	int andVar = var2 & var3;
 
-	//Побітове Або
+	//РџРѕР±С–С‚РѕРІРµ РђР±Рѕ
 	int var4 = 105, var5 = 36;
 	int orVar = var4 | var5;
 
-	//Побітове ХАбо
+	//РџРѕР±С–С‚РѕРІРµ РҐРђР±Рѕ
 	int var6 = 5, var7 = 49;
 	int xorVar = var6 ^ var7;
 
-	//Зсув вліво
+	//Р—СЃСѓРІ РІР»С–РІРѕ
 	int var8 = 878;
 	int lShift = var8 << 30;
 
-	//Зсув вправо
+	//Р—СЃСѓРІ РІРїСЂР°РІРѕ
 	int var9 = 124;
 	int rShift = var9 >> 30;
 	
