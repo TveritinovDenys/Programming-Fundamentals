@@ -7,9 +7,10 @@
 *.dylib
 *.so
 *.dylib
-*.vcxproj
 *.sln
-x64/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
 main
 .vscode
 *.opendb
