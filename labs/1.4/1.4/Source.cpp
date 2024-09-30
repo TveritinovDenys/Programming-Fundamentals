@@ -37,13 +37,4 @@ int main() {
 
 	pVoid = &D;
 	pVoid = pD;
-
-
-
-
-
-
-
-
-
 }
