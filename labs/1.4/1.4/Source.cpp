@@ -11,6 +11,8 @@ int main() {
 	pVoid = &A;
 	pVoid = pA;
 
+	int sizeA = sizeof(A);
+
 	//int
 	int B;
 	int* pB;
@@ -19,6 +21,8 @@ int main() {
 
 	pVoid = &B;
 	pVoid = pB;
+
+	int sizeB = sizeof(B);
 
 	//float
 	float C;
