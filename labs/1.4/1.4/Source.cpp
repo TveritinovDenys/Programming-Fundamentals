@@ -33,6 +33,8 @@ int main() {
 	pVoid = &C;
 	pVoid = pC;
 
+	int sizeC = sizeof(C);
+
 	//double
 	double D;
 	double* pD;
@@ -41,4 +43,6 @@ int main() {
 
 	pVoid = &D;
 	pVoid = pD;
+
+	int sizeD = sizeof(D);
 }
