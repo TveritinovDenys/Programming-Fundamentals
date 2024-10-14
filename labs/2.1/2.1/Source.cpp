@@ -57,4 +57,23 @@ int main() {
 			mult *= arr3[i];
 	}
 	std::cout << mult;
+
+	int mArr[5][4] = { {-9,2,3,4}, {6,-20,8,9}, {11,12,-2,14}, {16,-1,18,19}, {20,-7,22,23} };
+	int resArr[4];
+
+	
+	for (int i = 0; i < 4; i++) {
+		int min = mArr[0][i];
+		for (int j = 0; j < 5; j++) {
+			if (mArr[j][i] < min)
+				min = mArr[j][i];
+		}
+		resArr[i] = min;
+	}
+
+	for (int i = 0; i < 4; i++)
+	{
+		std::cout << std::endl;
+		std::cout << resArr[i] << " ";
+	}
 }
