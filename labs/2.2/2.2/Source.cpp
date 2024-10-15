@@ -21,13 +21,13 @@ int main() {
 	stdArr[6].yearOfStudy = 2;
 	stdArr[6].stipend = true;
 
-	int count = 0;
+	int stipCount = 0;
 	for (int i = 0; i < 7; i++) {
 		if (stdArr[i].yearOfStudy == 1 && stdArr[i].stipend == 1) {
-			count++;
+			stipCount++;
 		}
 	}
 	
-	float result = (float)count * 100 / 7;
+	float result = (float)stipCount * 100 / 7;
 	std::cout << result << std::endl;
 }
