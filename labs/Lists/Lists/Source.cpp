@@ -49,7 +49,7 @@ inline void addToEnd(Node** head, int value) {
     }
 }
 
-// Функція для видалення останнього елемента з пов'язаного списку
+// Функція для видалення останнього елемента з однозв'язного списку
 inline void removeFromEnd(Node** head) {
     // Перевірка, чи список пустий
     if (*head == nullptr) {
